@@ -1,0 +1,785 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive Experiment */
+.circleCancell {
+
+  color: white;
+  background-color: #043873;
+}
+
+.circleCancell:hover {
+  color: goldenrod;
+}
+
+.accordion-body {
+  margin: 0px;
+  background-color: #043873;
+
+
+}
+
+.listItemsoflinks {
+  margin: 0px;
+  color: white;
+}
+
+.listItemsoflinks a {
+
+
+  color: white;
+  width: 100%;
+  height: 35px;
+
+
+}
+
+.listItemsoflinks a:hover {
+  background-color: #cbe9eb;
+  border: 1px solid orange;
+}
+
+.buttonsofResponsive {
+  display: flex;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  background-color: hsl(212, 93%, 23%);
+}
+
+.threeMenu {
+  display: none;
+  background-color: transparent !important;
+  order: 1;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+
+}
+
+/* NaveBar */
+.logoOfWebsite {
+  width: 40%;
+}
+
+.navbarStyle {
+  background-color: #043873;
+  color: white;
+  min-height: 92px;
+
+}
+
+.NavbarContainer {
+  max-height: 60px;
+}
+
+.part2Ofnav {
+  width: 60%;
+
+}
+
+.btn {
+  max-height: 60px;
+
+  color: white;
+}
+
+.LoginBtn {
+  color: black;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  border: none !important;
+  color: gold !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:active {
+  border-color: none !important;
+}
+
+.dropDownitems {
+  width: 70%;
+}
+
+.buttonsOfNav {
+  display: flex;
+  width: 30%;
+}
+
+.buttonsOfNav1 {
+  display: flex;
+}
+
+.LoginBtn {
+  background-color: #FFE492;
+  min-height: 60px;
+
+  width: 126px;
+
+}
+
+.arrrowBtn {
+
+  background-color: #4F9CF9;
+  min-height: 60px;
+  max-width: 227px;
+}
+
+/* Container-fluid of main */
+/* Main First Part */
+.MainFirstPart {
+  min-height: 660px;
+  background-color: #043873;
+  background-image: url(./Images/MainFirst/Element.png);
+  background-size: cover;
+
+}
+
+.MainFirstPart .heding {
+  font-size: 64px;
+}
+
+.mainfirstLeft {
+  width: 50%;
+}
+
+.mainfirstRight {
+  background-color: #C4DEFD;
+  min-height: 456px;
+  width: 50%;
+
+
+}
+
+/* worktogether and ProjectManager */
+.WorktogeandProjMana {
+  min-height: 1370px;
+  color: black;
+
+  background-image: url(./Images/ProjectManagemntAndWorkTogether/Group.png);
+  background-repeat: no-repeat;
+}
+
+.ProjectManager {
+
+  min-height: 600px;
+  color: black;
+
+}
+
+
+
+.LeftProjectManagLeft {
+  min-height: 600px;
+  width: 40%;
+}
+
+.ProjectManagerundeline {
+  bottom: 10px;
+
+}
+
+.LeftProjectManag .heding {
+  font-size: 64px;
+  font-weight: 700;
+
+}
+
+.borderOfManagenent {
+  border-image-source: url(./Images/ProjectManagemntAndWorkTogether/Vector.png);
+  border-image-slice: 100;
+  border-image-width: 0px 0px 20px 2px;
+}
+
+.borderOfManagenentBlue {
+  border-image-source: url(./Images/BlueColorImgBorder/Vector.png);
+  border-image-slice: 100;
+  border-image-width: 0px 0px 15px 2px;
+
+}
+
+.LeftProjectManag p {
+  font-weight: 400;
+}
+
+.RightCOntaierManager {
+  width: 60%;
+}
+
+.RightProjectManag {
+  width: 80%;
+  background-color: #C4DEFD;
+  min-height: 448px;
+  align-items: center;
+}
+
+.workTogether {
+
+  min-height: 660px;
+}
+
+
+
+.classCOntainerWorktogetherLeft {
+  width: 50%;
+}
+
+.workTogetherLeft {
+  min-height: 660px;
+}
+
+.RightOfWorkTogether {
+  min-height: 660px;
+}
+
+.RightOfWorkTogetherChild {
+  min-height: 35%;
+}
+
+.RightOfWorkTogether h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.RightOfWorkTogether p {
+  font-weight: 400;
+
+}
+
+/* Use as Extension */
+.UseExtension {
+  min-height: 759px;
+  background-color: #043873;
+}
+
+.Extentsion {
+  width: 70%;
+}
+
+.leftPartExtension {
+  width: 50%;
+  height: 400px;
+}
+
+.rightSideExtensionContainer {
+  width: 50%;
+}
+
+.rightSideExtension {
+  width: 90%;
+  height: 500px;
+  background-color: #C4DEFD;
+
+}
+
+.ContaintOfExtension h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.ContaintOfExtension p {
+  font-weight: 400px;
+}
+
+/* Cunstomistion */
+.Customise {
+  min-height: 759px;
+  color: black;
+
+}
+
+.leftSideCustomiseContainert {
+  width: 60%;
+}
+
+.leftSideCustomise {
+  width: 80%;
+  height: 500px;
+  background-color: #C4DEFD;
+}
+
+.rightSideCustomise {
+  width: 40%;
+  height: 500px;
+
+}
+
+.rightSideCustomise h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.rightSideCustomise p {
+  font-weight: 400px;
+}
+
+/* ChoosePlan */
+.choosePlan {
+  color: #000;
+  min-height: 1272px;
+
+}
+
+.choosePlan h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.choosePlan p {
+  font-weight: 400;
+}
+
+.choosePlan .card {
+  min-height: 654px;
+}
+
+.choosePlan .card:hover {
+  cursor: pointer;
+}
+
+.choosePlan .card-title h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.choosePlan .card-title h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.choosePlan .card-title p {
+  font-weight: 500;
+}
+
+.choosePlan .btn-outline-warning {
+  color: black;
+}
+
+.card {
+  border: none;
+}
+
+.cardBtn {
+  width: 166px;
+  padding-top: 15px;
+  min-height: 51px;
+}
+
+.card1 {
+  border: 1px solid orange;
+}
+
+.card2 {
+  border: 1px solid orange;
+
+}
+
+.card3 {
+  border: 1px solid orange;
+}
+
+/* Effects of card System */
+.choosePlan .card2 {
+  color: black;
+  background-color: white;
+
+}
+
+.choosePlan .card2:hover h3 {
+  color: #FFE492;
+
+}
+
+.choosePlan .card2:hover {
+  color: white;
+  background-color: #043873;
+  transform: scale(1.1);
+}
+
+.card1:hover {
+  color: white;
+  background-color: #043873;
+  transform: scale(1.1);
+}
+
+.card1:hover h3 {
+  color: #FFE492;
+}
+
+.card1:hover .btn-outline-warning {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+
+.card3:hover .btn-outline-warning {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+
+.card2:hover .btn-outline-warning {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+
+.card1:hover+.card2 {
+  color: black;
+  background-color: white;
+  transform: scale(1);
+}
+
+.card1:hover+.card2 .btn-primary {
+  color: black;
+  border: 1px solid #FFE492;
+  background-color: white;
+}
+
+.card1:hover+.card2 h3 {
+  color: black;
+
+}
+
+.card3:hover {
+  color: white;
+  background-color: #043873;
+  transform: scale(1.1);
+}
+
+.card3:hover h3 {
+  color: #FFE492;
+}
+
+.plainCrdContainer:has(.card3:hover) .card2 {
+  color: black;
+  background-color: white;
+  transform: scaleY(1);
+}
+
+.plainCrdContainer:has(.card3:hover) .card2 h3 {
+
+  color: black;
+
+}
+
+.plainCrdContainer:has(.card3:hover) .card2 .btn-primary {
+
+  color: black;
+  border: 1px solid #FFE492;
+  background-color: white;
+
+}
+
+
+
+/* Your work, everywhere you are */
+.workEvery {
+  min-height: 574px;
+  background-color: #043873;
+  background-image: url(./Images/WorkEvery/Group.png);
+  background-repeat: no-repeat;
+}
+
+
+/* Work 100% */
+.leftPart100 {
+  width: 50%;
+}
+
+.workEvery h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.leftWork h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.leftWork p {
+  font-weight: 400;
+}
+
+.work100 {
+  color: black;
+  min-height: 661px;
+
+}
+
+/* .rightof100 {
+  width: 50%;
+  height: 50%;
+  color: black;
+  background-image: url("./Images/Data/Element.png");
+} */
+
+/* our spouser */
+.ourSponser {
+  color: black;
+  min-height: 538px;
+}
+
+.ourSponser h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+/* usingWhite */
+.usingWhite {
+  background-image: url(./Images/MainFirst/Element.png);
+  background-color: #043873;
+  min-height: 750px;
+}
+
+.usingWhiteLeft {
+  width: 50%;
+}
+
+.usingWhite h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.usingWhite p {
+  font-weight: 500;
+}
+
+.rideApp {
+  width: 40%;
+  min-height: 444px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+/* Our Clients */
+hr {
+  width: 90%;
+
+  height: 5px;
+
+  color: white;
+}
+
+.cardcontainerClients .card:hover hr {
+  color: black;
+}
+
+.cardcontainerClients h3 {
+
+  color: #043873;
+
+}
+
+.OurClients {
+  color: black;
+  min-height: 992px;
+}
+
+.OurClients h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+/* Cilent icon */
+.Clientcard1 svg {
+  width: 86px;
+  height: 61px;
+  color: white;
+
+
+}
+
+.Clinentcard2 svg {
+  width: 86px;
+  height: 61px;
+  color: white;
+
+
+}
+
+.Clientcard3 svg {
+  width: 86px;
+  height: 61px;
+  color: white;
+
+
+}
+
+.Clientcard1:hover {
+  background-color: white;
+  box-shadow: 5px 5px rgb(227, 227, 227);
+}
+
+.Clientcard1:hover h3 {
+  color: black;
+}
+
+
+
+.Clientcard3:hover h3 {
+  color: black;
+}
+
+
+.Clinentcard2:hover h3 {
+  color: black;
+}
+
+
+
+.Clientcard1:hover svg {
+  color: #043873;
+}
+
+.cardcontainerClients .card {
+  max-width: 424px;
+}
+
+.Clientcard1 {
+  background-color: #4F9CF9;
+}
+
+.Clinentcard2 {
+  background-color: #4F9CF9;
+}
+
+.Clinentcard2:hover {
+  background-color: white;
+  box-shadow: 5px 5px rgb(227, 227, 227);
+}
+
+.Clinentcard2:hover svg {
+  color: #043873;
+}
+
+.Clientcard3 {
+  background-color: #4F9CF9;
+
+}
+
+.Clientcard3:hover {
+  box-shadow: 5px 5px rgb(227, 227, 227);
+  background-color: white;
+}
+
+.Clientcard3:hover svg {
+  color: #043873;
+}
+
+
+
+.SliderOurCustomer {
+
+  width: 60px;
+  height: 12px;
+}
+
+
+
+.SliderOurCustomer .circle1 {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  color: #4F9CF9;
+
+}
+
+.SliderOurCustomer .circle2 {
+  color: #043873;
+}
+
+/* try Whitepace */
+.tryWhitepace {
+  min-height: 709px;
+  background-color: #043873;
+
+}
+
+.tryWhitepace h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.tryWhitepace p {
+  font-weight: 400;
+}
+
+.itemsoftoday {
+  min-height: 537px;
+  max-width: 537px;
+}
+
+.ContainerIconTry svg {
+  color: white;
+}
+
+.ContainerIconTry svg:hover {
+  color: goldenrod;
+}
+
+.ContainerIconTry a {
+  color: #043873;
+}
+
+/* Footer */
+.Footer {
+  min-height: 474px;
+  background-color: #043873;
+
+}
+
+.itemsOfFooter {
+  padding-top: 200px;
+  max-width: 90%;
+  min-height: 182px;
+}
+
+.logoFooter {
+  height: 169px;
+  width: 240px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #716950;
+
+}
+
+.Endpart .dropdown-toggle::after {
+  content: none !important;
+}
+
+.iconEffects {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  color: rgb(220, 220, 220);
+}
+
+.FonterLine {
+  width: 95%;
+}
+
+.iconEffects:hover {
+  color: goldenrod;
+}
